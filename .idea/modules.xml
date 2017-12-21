@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/backend-api-service.iml" filepath="$PROJECT_DIR$/backend-api-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/market-watch-api.iml" filepath="$PROJECT_DIR$/market-watch-api.iml" />
     </modules>
   </component>
 </project>
