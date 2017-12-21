@@ -1,0 +1,29 @@
+server:
+  port: 9998
+
+spring:
+  application:
+    name: market-watch-backend-service
+  datasource:
+    username: root
+    password:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/realestate
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQL5Dialect
+#  cloud:
+#    stream:
+#      bindings:
+#        input: real-estate-posts
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
